@@ -1,0 +1,72 @@
+body {
+  background-image: url("drums.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inline;
+}
+p {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+#hihat {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(58, 46, 46);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#snarE {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(58, 46, 46);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#toM {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(58, 46, 46);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#ridE {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(58, 46, 46);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#kicK {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(58, 46, 46);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#rightDrumHiHat,
+#rightDrumSnare,
+#rightDrumKick {
+  height: 80px;
+  width: 80px;
+  background-color: silver;
+  border-radius: 80%;
+  margin-left: 80;
+}
+
+.right-drums {
+  display: flex;
+  justify-content: end;
+  align-content: space-around;
+  margin-right: 20px;
+}
